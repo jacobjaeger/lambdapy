@@ -4,9 +4,9 @@ setup(
     name="lambdapy",
     author="Jacob Jäger",
     maintainer="Jacob Jäger",
-    version="0.0.1",
+    version="0.0.2",
     description="Untyped Lambda calculus in python",
-    py_modules=['lambdapy'],
+    py_modules=['lambdapy', 'lambdapy.core', 'lambdapy.repl'],
     install_requires=["tatsu"],
     entry_points={
         'console_scripts': [
